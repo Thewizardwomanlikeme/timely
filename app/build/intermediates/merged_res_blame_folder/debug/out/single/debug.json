@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.timely.app-merged_res-31:/drawable_ic_time_notification.xml.flat",
+        "source": "com.timely.app-main-33:/drawable/ic_time_notification.xml"
+    },
+    {
+        "merged": "com.timely.app-merged_res-31:/drawable_ic_arrow_right.xml.flat",
+        "source": "com.timely.app-main-33:/drawable/ic_arrow_right.xml"
+    },
+    {
+        "merged": "com.timely.app-merged_res-31:/drawable_bg_header.xml.flat",
+        "source": "com.timely.app-main-33:/drawable/bg_header.xml"
+    },
+    {
+        "merged": "com.timely.app-merged_res-31:/drawable_bg_status_dot_inactive.xml.flat",
+        "source": "com.timely.app-main-33:/drawable/bg_status_dot_inactive.xml"
+    },
+    {
+        "merged": "com.timely.app-merged_res-31:/color_chip_text_color.xml.flat",
+        "source": "com.timely.app-main-33:/color/chip_text_color.xml"
+    },
+    {
+        "merged": "com.timely.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.timely.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.timely.app-merged_res-31:/drawable_bg_time_field.xml.flat",
+        "source": "com.timely.app-main-33:/drawable/bg_time_field.xml"
+    },
+    {
+        "merged": "com.timely.app-merged_res-31:/drawable_bg_status_dot_active.xml.flat",
+        "source": "com.timely.app-main-33:/drawable/bg_status_dot_active.xml"
+    },
+    {
+        "merged": "com.timely.app-merged_res-31:/color_chip_bg_color.xml.flat",
+        "source": "com.timely.app-main-33:/color/chip_bg_color.xml"
+    },
+    {
+        "merged": "com.timely.app-merged_res-31:/drawable_ic_clock_large.xml.flat",
+        "source": "com.timely.app-main-33:/drawable/ic_clock_large.xml"
+    },
+    {
+        "merged": "com.timely.app-merged_res-31:/drawable_ic_launcher.xml.flat",
+        "source": "com.timely.app-main-33:/drawable/ic_launcher.xml"
+    }
+]

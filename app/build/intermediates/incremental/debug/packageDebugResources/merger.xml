@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\pc\Downloads\timely\app\src\main\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\pc\Downloads\timely\app\src\main\res"><file name="chip_bg_color" path="C:\Users\pc\Downloads\timely\app\src\main\res\color\chip_bg_color.xml" qualifiers="" type="color"/><file name="chip_text_color" path="C:\Users\pc\Downloads\timely\app\src\main\res\color\chip_text_color.xml" qualifiers="" type="color"/><file name="bg_header" path="C:\Users\pc\Downloads\timely\app\src\main\res\drawable\bg_header.xml" qualifiers="" type="drawable"/><file name="bg_status_dot_active" path="C:\Users\pc\Downloads\timely\app\src\main\res\drawable\bg_status_dot_active.xml" qualifiers="" type="drawable"/><file name="bg_status_dot_inactive" path="C:\Users\pc\Downloads\timely\app\src\main\res\drawable\bg_status_dot_inactive.xml" qualifiers="" type="drawable"/><file name="bg_time_field" path="C:\Users\pc\Downloads\timely\app\src\main\res\drawable\bg_time_field.xml" qualifiers="" type="drawable"/><file name="ic_arrow_right" path="C:\Users\pc\Downloads\timely\app\src\main\res\drawable\ic_arrow_right.xml" qualifiers="" type="drawable"/><file name="ic_clock_large" path="C:\Users\pc\Downloads\timely\app\src\main\res\drawable\ic_clock_large.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="C:\Users\pc\Downloads\timely\app\src\main\res\drawable\ic_launcher.xml" qualifiers="" type="drawable"/><file name="ic_time_notification" path="C:\Users\pc\Downloads\timely\app\src\main\res\drawable\ic_time_notification.xml" qualifiers="" type="drawable"/><file name="activity_main" path="C:\Users\pc\Downloads\timely\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file path="C:\Users\pc\Downloads\timely\app\src\main\res\values\colors.xml" qualifiers=""><color name="colorBackground">#090915</color><color name="colorSurface">#12122A</color><color name="colorSurfaceVariant">#1C1C3A</color><color name="colorPrimary">#7C4DFF</color><color name="colorPrimaryDark">#5E35B1</color><color name="colorPrimaryContainer">#1E1040</color><color name="colorSecondary">#00E5FF</color><color name="colorOnBackground">#F0F0FF</color><color name="colorOnBackgroundSecondary">#9090BB</color><color name="colorOnSurface">#E0E0FF</color><color name="colorActive">#00E676</color><color name="colorInactive">#546E7A</color><color name="chipTextChecked">#FFFFFF</color><color name="chipTextUnchecked">#9090BB</color><color name="chipBgChecked">#7C4DFF</color><color name="chipBgUnchecked">#1C1C3A</color></file><file path="C:\Users\pc\Downloads\timely\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">Timely</string><string name="start">Start</string><string name="stop">Stop</string><string name="active_days">Active Days</string><string name="time_range">Announcement Window</string><string name="interval_title">Announce Every</string><string name="from">FROM</string><string name="to">TO</string><string name="status_active">Active</string><string name="status_inactive">Inactive</string><string name="tagline">Your personal time announcer</string></file><file path="C:\Users\pc\Downloads\timely\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.Timely" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:statusBarColor">@color/colorBackground</item>
+        <item name="android:navigationBarColor">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+        
+        <item name="materialCardViewStyle">@style/CardStyle</item>
+        
+        <item name="chipStyle">@style/DayChipStyle</item>
+    </style><style name="CardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/colorSurface</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">#22224A</item>
+        <item name="strokeWidth">1dp</item>
+    </style><style name="DayChipStyle" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="android:textColor">@color/chip_text_color</item>
+        <item name="chipBackgroundColor">@color/chip_bg_color</item>
+        <item name="chipStrokeColor">#3D3D70</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipCornerRadius">12dp</item>
+    </style><style name="SectionLabel">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style><style name="TimeValue">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style><style name="ButtonStart" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style><style name="ButtonStop" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/colorInactive</item>
+        <item name="android:textColor">@color/colorInactive</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\pc\Downloads\timely\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\pc\Downloads\timely\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\pc\Downloads\timely\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\pc\Downloads\timely\app\build\generated\res\resValues\debug"/></dataSet><mergedItems/></merger>
